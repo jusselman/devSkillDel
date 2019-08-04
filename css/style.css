@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+.input-skills-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+h1.header-box {
+    font-size: 20px;
+    color: white;
+    background: green;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.skills-button {
+    color: green;
+    border: 3px solid green;
+    background: white;
+
+}
+
+.skills-list {
+    text-align:center;
+    list-style-type: none;
+}
+
+#skills-btn-li {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+.skills-ul {
+    display: block;
+}
+
+#skills-delete {
+    color: white;
+    background: red;
+    border: 3px solid black;
+}
+
